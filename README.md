@@ -1,10 +1,11 @@
 # Unity Chess Bot - [Work in Progress]
-A simple 2d chess clone that has an AI (bot) that plays moves against the player. The bot is still a work in progress.
+
+A simple 2D chess clone that has an AI (bot) that plays moves against the player. The bot is still a work in progress.
 
 ![Chess](https://github.com/donaldheddesheimer/Unity-Chess-Bot/assets/119540065/c04dcc5f-bd8a-47f7-bcf7-835afc347ce8)
 
-## How it works
-The cloned game follows typically chess rules on an 8x8 grid. You can play white or black and can play Player vs Player or Player vs AI or AI vs AI. The bot looks for moves in the future to decide the best move. 
+## How it Works
+The cloned game follows typical chess rules on an 8x8 grid. You can play as white or black and can choose between Player vs Player, Player vs AI, or AI vs AI modes. The bot analyzes future moves to decide the best possible move.
 
 ## Depth of Search
 The bot searches for moves up to a certain depth in the game tree. A deeper search allows for a more thorough evaluation of potential moves but also requires more computational resources.
@@ -21,3 +22,10 @@ The algorithm ensures that all generated moves adhere to standard chess rules, i
 
 ![Ajedrez_captura_al_paso_del_peon](https://github.com/donaldheddesheimer/Unity-Chess-Bot/assets/119540065/29e61f3f-a39f-4677-a112-96e8cccfc71a)
 
+## Future Improvements
+I am currently working on enhancing the bot's capabilities to create a more powerful AI. This involves training the bot using grandmaster-level PGNs (Portable Game Notation) to improve its decision-making process and overall gameplay strength.
+
+## Credits
+This project is a fork of [this repository](https://github.com/donaldheddesheimer/Unity-Chess-Bot). The main source of inspiration and learning for this project comes from [this video](https://www.youtube.com/watch?v=U4ogK0MIzqk&t). 
+
+Stay tuned for more updates as the bot continues to evolve!
