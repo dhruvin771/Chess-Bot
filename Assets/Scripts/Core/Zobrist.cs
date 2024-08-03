@@ -103,7 +103,7 @@ namespace Chess {
 
 		static string randomNumbersPath {
 			get {
-				return Path.Combine (Application.streamingAssetsPath, randomNumbersFileName);
+                return Path.Combine(Application.persistentDataPath, randomNumbersFileName);
 			}
 		}
 
